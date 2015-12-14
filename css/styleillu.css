@@ -1,0 +1,73 @@
+html,body {
+
+  height:100%;
+
+}
+
+.navbar-brand {
+  padding: 0px;
+
+}
+
+.navbar-brand>img {
+  height: 100%;
+  padding: 15px;
+  width: auto;
+}
+
+.navbar-default {
+
+background-color: #b30000;
+border-color: #b30000;
+position:relative;
+z-index:10;
+
+}
+
+.navbar-default .navbar-nav > li > a {
+   color: white; /*Change active text color here*/
+   font-family: 'Yellowtail', cursive;
+   font-size: 22px;
+
+    }
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+
+color: #ff5151;  /*Sets the text hover color on navbar*/
+
+}
+
+.btn-primary {
+
+background-color: #b30000;
+border-color: #b30000;
+font-family: 'Yellowtail', cursive;
+
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+
+  background-color: #ff5151;
+  border-color: #ff5151;
+
+}
+
+.btn-primary:active, .btn-primary.active {
+
+    background-color: #b30000;
+    border-color: #b30000;
+
+}
+
+.page-header  {
+
+font-family: 'Yellowtail', cursive;
+color: #b30000;
+
+}
+
+h2  {
+
+font-family: 'Yellowtail', cursive;
+
+}

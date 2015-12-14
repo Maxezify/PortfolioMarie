@@ -1,0 +1,113 @@
+html,body {
+
+  height:100%;
+
+}
+
+.navbar-brand {
+  padding: 0px;
+
+}
+
+.navbar-brand>img {
+  height: 100%;
+  padding: 15px;
+  width: auto;
+}
+
+.navbar-default {
+
+background-color: #b30000;
+border-color: #b30000;
+position:relative;
+z-index:10;
+
+}
+
+.navbar-default .navbar-nav > li > a {
+   color: white; /*Change active text color here*/
+   font-family: 'Yellowtail', cursive;
+   font-size: 22px;
+
+    }
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+
+color: #ff5151;  /*Sets the text hover color on navbar*/
+
+}
+
+/* Carousel base class */
+.carousel {
+  height: 600px;
+  width:100%;
+  /*margin-bottom: 60px;*/
+  position:absolute;
+  top:0;
+
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 600px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: auto;
+}
+
+.carousel,.item,.active {
+
+  height:100%;
+
+}
+
+.carousel-inner {
+
+  height:100%;
+
+}
+
+.carousel-caption {
+
+font-family: 'Yellowtail', cursive;
+font-size: 50px;
+
+}
+
+.carousel-indicators  {
+
+bottom: 10%;
+
+}
+
+.btn {
+
+  background-color: #b30000;
+  border-color: #b30000;
+  font-family: 'Yellowtail', cursive;
+
+}
+
+.btn-primary {
+
+background-color: #b30000;
+border-color: #b30000;
+font-family: 'Yellowtail', cursive;
+
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active /*, .open > .dropdown-toggle.btn-primary*/ {
+
+  background-color: #ff5151;
+  border-color: #ff5151;
+
+}
